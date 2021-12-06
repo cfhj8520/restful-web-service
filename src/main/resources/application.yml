@@ -8,3 +8,16 @@ logging:
 spring:
   messages:
     basename: messages
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+jpa:
+  show-sql: true
+
+h2:
+  console:
+    enabled: true
