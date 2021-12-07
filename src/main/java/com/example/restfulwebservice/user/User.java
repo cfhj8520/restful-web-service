@@ -22,7 +22,7 @@ import java.util.Date;
 //@JsonIgnoreProperties(value = {"password", "ssn"})
 @NoArgsConstructor
 //@JsonFilter("UserInfo")
-@ApiModel(description = "사용자 상세 정보를 위한 도메인 객체")
+@ApiModel(description = "사용자 정보를 위한 도메인 객체")
 @Entity
 public class User {
     @Id
